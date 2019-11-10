@@ -18,6 +18,10 @@ li {
 header{
   background: rgb(202, 198, 198);
   height: 60px;
+  position: fixed;
+  top:0;
+  z-index:10;
+  width: 100%;
 }
 
 header h1{
@@ -34,7 +38,7 @@ header li{
 .profile {
   display:inline-block;
   width:100%;
-  margin-top:50px;
+  margin-top:110px;
 }
 .profile h2{
   text-align: center;
@@ -111,16 +115,44 @@ header li{
 
 .point-area{
   display:flex;
-  width: 60%;
+  width: 100%;
   margin-left:30px;
   margin-top:30px;
 }
 
 .point {
   margin-right:40px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .point-text{
-  font-size: 20px;
+  font-size: 30px;
+}
+
+.create h2{
+  text-align:center;
+  margin-top: 80px;
+  padding-bottom:40px;
+}
+
+.school-area{
+  display:flex;
+  width: 60%;
+  margin-left:30px;
+  margin-top:30px;
+}
+
+.school{
+  padding-top:15px;
+}
+
+.school-text{
+  border-bottom:1px solid black;
+  margin-left: 40px;
+  font-size:40px;
+  margin-bottom: 30px;
+}
+
+.point-text span{
+  color:red
 }
