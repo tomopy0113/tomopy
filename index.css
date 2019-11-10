@@ -1,0 +1,126 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+
+header{
+  background: rgb(202, 198, 198);
+  height: 60px;
+}
+
+header h1{
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+
+header li{
+  float:left;
+  padding:20px 50px;
+}
+
+.profile {
+  display:inline-block;
+  width:100%;
+  margin-top:50px;
+}
+.profile h2{
+  text-align: center;
+  padding-bottom:50px;
+}
+
+.name-area{
+  display:flex;
+  margin-left:30px;
+  width:60%;
+  margin-bottom:30px;
+}
+
+.name{
+  padding-top: 15px;
+}
+
+.name-text{
+  border-bottom:1px solid black;
+  margin-left: 40px;
+  font-size:40px;
+}
+
+
+.from-area{
+  display:flex;
+  width: 60%;
+  margin-left:30px;
+}
+
+.from{
+  padding-top:15px;
+}
+
+.from-text{
+  border-bottom:1px solid black;
+  margin-left: 40px;
+  font-size:40px;
+}
+
+.skill-area{
+  display:flex;
+  width: 60%;
+  margin-left:30px;
+  margin-top:30px;
+}
+
+.skill{
+  padding-top:15px;
+}
+
+.skill-text{
+  border-bottom:1px solid black;
+  margin-left: 40px;
+  font-size:40px;
+}
+
+.twitter-area{
+  display:flex;
+  width: 60%;
+  margin-left:30px;
+  margin-top:30px;
+}
+
+.twitter{
+  padding-top:15px;
+}
+
+.twitter-text{
+  border-bottom:1px solid black;
+  margin-left: 10px;
+  font-size:40px;
+}
+
+.point-area{
+  display:flex;
+  width: 60%;
+  margin-left:30px;
+  margin-top:30px;
+}
+
+.point {
+  margin-right:40px;
+  padding-top: 30px;
+}
+
+.point-text{
+  font-size: 20px;
+}
